@@ -1,0 +1,7 @@
+name: private action workflow
+on: push
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:    
+    - uses: new-action-flow-test-org-2/ansh121-sauron-1675261518221-private-action@main
